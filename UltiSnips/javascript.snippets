@@ -1,8 +1,38 @@
 # Este archivo contiene snippets para javascript --
-snippet rafd "Crea y exporta un componente simple" b
-console.log("testeando")
+
+
+snippet rafc "Crea y exporta un componente" b
+import React from 'react'
+
+export const `!v expand('%:t:r')` = () => {
+
+  return(
+    <>
+      $1
+    </>
+  )
+}
 endsnippet
 
-snippet crf "Genera una variable" b
-const test = 0
+snippet rafd "Crea y exporta un componente de manera default" b
+import React from 'react'
+
+const `!v expand('%:t:r')` = () => {
+
+  return(
+    <>
+      $1
+    </>
+  )
+}
+
+export default `!v expand('%:t:r')`
+
 endsnippet
+
+snippet uses "crea un useState" b 
+
+const [$1, $2] = useState()
+
+endsnippet
+
