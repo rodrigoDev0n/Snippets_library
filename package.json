@@ -1,0 +1,11 @@
+{
+  "name": "snippets_library",
+  "version": "1.0.0",
+  "description": "collection of snippets",
+  "author": "Rodrigo Poblete",
+  "license": "Apache 2.0",
+  "private": true,
+  "dependencies": {
+    "husky": "^8.0.1"
+  }
+}
