@@ -1,5 +1,12 @@
 # Este archivo contiene snippets para javascript --
-
+global !p
+def upperfirst(t):
+    if len(t) < 2:
+	return '' if len(t) < 1 else t.capitalize()
+    return t[0].capitalize() + t[1:]
+def lowerdash(t):
+    return '-'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
+endglobal
 
 snippet rafc "Crea y exporta un componente" b
 import React from 'react'
