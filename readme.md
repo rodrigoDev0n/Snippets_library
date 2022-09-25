@@ -1,6 +1,5 @@
-\begin{center}
-# 🤓 | vim snippets library | 🤖
-\end{center}
+
+<h1 align="center"> 🤓 | vim snippets library | 🤖 </h1>
 
 
 ---
