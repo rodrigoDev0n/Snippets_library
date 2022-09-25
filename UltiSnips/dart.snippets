@@ -1,5 +1,30 @@
+global !p
+def upperfirst(t):
+	if len(t) < 2:
+		return '' if len(t) < 1 else t.capitalize()
+	return t[0].capitalize() + t[1:]
+def lowerdash(t):
+	return '-'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
+endglobal
+
 # Contiene los snippets para dart-flutter
 
 snippet prin "crea un print que muestra un mensaje" w
 print("Hola esto es una prueba del snippet");
+endsnippet
+
+snippet stless "crea un StateLess Widget" w
+
+class $1 extends StatelessWidget {
+  const $2`!p snip.rv=lowerdash(t[1])`({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container();
+  }
+}
+
+endsnippet
+
+snippet stfull "crea un StateFull Widget" w
 endsnippet
