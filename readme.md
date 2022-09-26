@@ -37,8 +37,16 @@ Snippets para react:
 ---
 * <strong>log</strong> | Este snipped crea un console.log.
 ---
+---
 
 Snippets para flutter:
 ---
-<h3>En proceso 😄</h3>
+
+* <strong>stless</strong> | Este snipped permite crear un StatelessWidget.
+---
+* <strong>stfull</strong> | Este snipped permite crear un StatefullWidget.
+---
+---
+
+
 
