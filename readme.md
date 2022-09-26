@@ -3,7 +3,7 @@
 
 
 ---
-> Estos son algunos snippets que he creado para trabajar con (n)vim en javascript, html, css y flutter actualmente no hay muchos peto con el tiempo agregare mas...
+> Estos son algunos snippets que he creado para trabajar con (n)vim en javascript, html, css y flutter actualmente no hay muchos pero con el tiempo agregare mas...
 ---
 
 ### Instalación:
