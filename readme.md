@@ -23,30 +23,21 @@ Plug 'SirVer/ultisnips'
 ---
 ### Guia de snippets actuales:
 ---
-Snippets para react:
 ---
-* <strong>compd</strong> | Este snipped lo que hace es crear un componente y exportarlo de manera default.
+Snippets para react JS:
+~~~
+- compd --> Este snippet lo que hace es crear un componente y exportarlo de manera default.
+- comp 	--> Este snippet crea un componente y lo exporta.
+- uses 	--> Este snippet genera un useState.
+- usef 	--> Este snippet genera un useEffect.
+- fun 	--> Este snippet crea una función de tipo flecha.
+- log 	--> Este snipped crea un console.log.
+~~~
 ---
-* <strong>comp</strong> | Este snipped crea un componente y lo exporta.
----
-* <strong>uses</strong> | Este snipped genera un useState.
----
-* <strong>usef</strong> | Este snipped genera un useEffect.
----
-* <strong>fun</strong> | Este snipped crea una función de tipo flecha.
----
-* <strong>log</strong> | Este snipped crea un console.log.
----
----
-
 Snippets para flutter:
----
-
-* <strong>stless</strong> | Este snipped permite crear un StatelessWidget.
----
-* <strong>stfull</strong> | Este snipped permite crear un StatefullWidget.
----
----
-
+~~~
+- stless --> Este snippet permite crear un StatelessWidget.
+- stfull --> Este snippet permite crear un StatefullWidget.
+- impm	 --> Este snippet crea un import de material.dart.
 
 
