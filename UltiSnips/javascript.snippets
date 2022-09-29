@@ -10,36 +10,6 @@ endglobal
 #-----------------------------------------------------------------------------------
 # Snippets: --> 
 
-snippet compd "Crea y exporta un componente de manera default" b
-import React from 'react'
-
-const `!v expand('%:t:r')` = () => {
-
-  return(
-    <>
-      $1
-    </>
-  )
-}
-
-export default `!v expand('%:t:r')`
-
-endsnippet
-
-snippet comp "Genera un componente el cual lo exporta" b
-import React from 'react'
-
-export const `!v expand('%:t:r')` = () => {
-  
-  return(
-    <>
-      $1
-    </>
-  )
-}
-
-endsnippet
-
 snippet cust "crea la estructura de un custom hook" w
 const {} = $1
 endsnippet

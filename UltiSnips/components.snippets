@@ -1,0 +1,38 @@
+global !p
+def upperfirst(t):
+	if len(t) < 2:
+		return '' if len(t) < 1 else t.capitalize()
+	return t[0].capitalize() + t[1:]
+def lowerdash(t):
+	return '-'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
+endglobal
+
+# Snippets relacionados con los componentes en react
+
+snippet compd "Crea y exporta un componente de manera default" b
+import React from 'react'
+
+const `!v expand('%:t:r')` = () => {
+
+  return(
+    <>
+      $1
+    </>
+  )
+}
+
+export default `!v expand('%:t:r')`
+
+endsnippet
+
+snippet comp "Genera un componente el cual lo exporta" b
+import React from 'react'
+
+export const `!v expand('%:t:r')` = () => {
+  
+  return(
+    <>
+      $1
+    </>
+  )
+}
