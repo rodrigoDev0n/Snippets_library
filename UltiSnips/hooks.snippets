@@ -1,0 +1,32 @@
+# Snippets correspondientes a los hooks en react
+
+snippet usec "genera la un useCallback" w
+useCallback(
+  () => {
+    // first...
+  },
+  [],
+)
+endsnippet
+
+snippet user "genera un useReducer" w
+const [state, dispatch] = useReducer(first, second, third)
+endsnippet
+
+snippet user "genera un useRef" w 
+const first = useRef(second)
+endsnippet
+
+snippet usecont "genera un useContext" w
+const first = useContext()
+endsnippet
+
+snippet uses "crea un useState" w
+const [ $1, set$2`!p snip.rv=lowerdash(t[1])` ] = useState() 
+endsnippet
+
+snippet usef "crea un useEffect" w
+useEffect(() => {
+  $1
+}, [])
+endsnippet
