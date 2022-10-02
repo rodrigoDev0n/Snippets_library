@@ -30,6 +30,10 @@ Snippets para react JS:
 - comp 	--> Este snippet crea un componente y lo exporta.
 - uses 	--> Este snippet genera un useState.
 - usef 	--> Este snippet genera un useEffect.
+- useref --> Este snippet genera un useRef.
+- usecont --> Este snippet genera un useContext.
+- usereducer --> Este snippet genera un useReducer.
+- usec --> Este snippet genera un useCallback.
 - fun 	--> Este snippet crea una función de tipo flecha.
 - log 	--> Este snipped crea un console.log.
 ~~~
