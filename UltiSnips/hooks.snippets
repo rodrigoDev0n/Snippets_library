@@ -45,6 +45,24 @@ snippet usememo "crea un useMemo" w
 useMemo(() => first, [second])
 endsnippet
 
+snippet disp "Genera la estructura del dispatch del hook useReducer" w
+dispatch({
+  type: $1,
+  payload: ,
+})
+endsnippet
+
+snippet reducerfun "Genera una función con un switch para trabajar con reducer" w
+export const $2`!p snip.rv=lowerdash(t[1])`(initialState, action) => {
+  swith(action.type){
+    case $1:
+     return
+    default:
+      return initialState;
+  }
+}
+endsnippet
+
 
 
 
